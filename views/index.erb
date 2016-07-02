@@ -4,9 +4,10 @@
 <h1>Bienvenido al Ahorcado</h1>
 <br>
 Cantidad de Letras: <%=@cantidadDeLetras%>
-<form>
+<form method="POST" action="/validarLetra">
 <label>Ingrese una letra: <input name="inputLetra" id="inputLetra" type="text"/></label>
 <input name="btnEnviarLetra" id="btnEnviarLetra" type="submit" value="Enviar Letra"/>
 </form>
+<p><%=@mensajeValidado%></p>
 </body>
 </html>

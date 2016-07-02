@@ -10,6 +10,16 @@ describe 'Ahorcado' do
 
 		expect(ah.damePalabra.length).to eq 6
     end 
+    it 'Recibo la letra a' do
+    	ah = Ahorcado.new
+
+		expect(ah.reciboLetra('a')).to eq 'a'
+    end 
+    it 'Valido la letra a' do
+    	ah = Ahorcado.new
+
+		expect(ah.validoLetra('a')).to eq 'La letra a se encuentra en la palabra'
+    end 
 end
 
 
