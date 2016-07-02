@@ -6,4 +6,5 @@ class Ahorcado
       def damePalabra
       @palabra
 	  end 
+	   
 end
