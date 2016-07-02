@@ -15,4 +15,9 @@ Scenario: El usuario puede ingresar una letra
 Given Inicio de la aplicación
 Then El usuario puede ingresar una letra
 
+Scenario: El usuario puede enviar una letra
+Given Inicio de la aplicación
+When El usuario puede ingresar una letra
+Then El usuario puede enviar una letra
+
 
